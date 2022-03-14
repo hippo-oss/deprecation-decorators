@@ -62,3 +62,15 @@ export const DEPRECATION_DECORATORS: DTODecoratorFactories = Object.keys(NOOP_DE
     }),
     {} as DTODecoratorFactories,
 );
+
+export const {
+    IsBoolean,
+    IsDate,
+    IsDateString,
+    IsEnum,
+    IsInteger,
+    IsNested,
+    IsNumber,
+    IsString,
+    IsUUID,
+} = DEPRECATION_DECORATORS;
