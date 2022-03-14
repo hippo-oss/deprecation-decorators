@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.1]
+
+ - Expose `src` and `dist` in package.
+
 ## [0.2.0]
 
 - Provide a convenient export for the decorator flavor.
