@@ -12,8 +12,7 @@ describe('warnIfDeprecated', () => {
             })
             foo!: string;
 
-            @IsString({
-            })
+            @IsString()
             bar!: string;
 
             @IsString({

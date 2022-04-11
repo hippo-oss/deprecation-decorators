@@ -1,6 +1,6 @@
 {
     "name": "@hippo-oss/deprecation-decorators",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "DTO decorators with deprecation warnings.",
     "main": "./dist/index.js",
     "repository": "https://github.com/hippo-oss/deprecation-decorators",
@@ -23,7 +23,7 @@
         "ci:test:coverage": "NODE_ENV=test CI=1 jest --config=jest.coverage.config.js"
     },
     "dependencies": {
-        "@hippo-oss/dto-decorators": ">=0.3.0"
+        "@hippo-oss/dto-decorators": ">=0.4.0"
     },
     "peerDependencies": {
     },

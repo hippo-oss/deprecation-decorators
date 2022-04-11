@@ -320,10 +320,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@hippo-oss/dto-decorators@>=0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@hippo-oss/dto-decorators/-/dto-decorators-0.3.0.tgz#a5ab4560eec69119d498e5346b790e6a494c1049"
-  integrity sha512-R+5JFIdQQno3GnFo/n+Y/GvtG6OoX0c6gBr//AzJU0VIGNjcyoaAK40TcrlBOVSoo1m2s3eB553czefW+Jyd1w==
+"@hippo-oss/dto-decorators@>=0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@hippo-oss/dto-decorators/-/dto-decorators-0.4.0.tgz#705d22be552f27e8d3672b4e34e8c92898e2466f"
+  integrity sha512-Uctwi9b2c3SrzhwlaDCOFZHah5wqO6svlIwldWVQ7nSRR4IbJnd2Hgq/nYpvcNV9sfNp27q1cTuqloz+zG6Fzw==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"

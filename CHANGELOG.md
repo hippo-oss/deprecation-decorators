@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.3.0]
+
+ - Support optional options.
+
 ## [0.2.1]
 
  - Expose `src` and `dist` in package.

@@ -41,13 +41,13 @@ export function deprecate(
 /* Define a dto decorator factory that warns on deprecation.
  */
 export function withDeprecationWarnings<Options extends BaseOptions>(
-    { deprecated }: Options,
+    options?: Options,
 ): PropertyDecorator {
     return (
         target: Target,
         propertyKey: string | symbol,
     ): void => {
-        if (deprecated) {
+        if (options?.deprecated) {
             deprecate(target, propertyKey);
         }
     };
